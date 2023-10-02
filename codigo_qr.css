@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Inter&family=Roboto+Condensed:wght@700&display=swap');
+header{
+    background: rgb(29, 149, 16);
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.grid h2{
+    margin: 70px 50px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 2em;
+    
+}
+
+.codeqr{
+    margin-left: 50px;
+    justify-content: center;
+     
+}
+
+.logoqr{
+    /* display: flex; */
+    justify-content: center;
+    margin: auto;
+}
+
+footer{
+    margin-top: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    background: rgb(29, 149, 16);
+    text-align: center;
+    
+}
